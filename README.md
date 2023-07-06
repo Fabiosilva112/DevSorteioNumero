@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">DevSorteio</h1>
 
-<video src="./assets/img/Sorteio e mais 1 página - Pessoal 2 — Microsoft​ Edge 2023-07-06 09-05-02.mp4"></video>
+<img src="./assets/img/sorteador.png"></img>
 
 <h3>Sobre</h3>
 
