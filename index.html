@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Sorteio</title>
+</head>
+<body>
+    <main class="main">
+        <section class="main-section">
+            <div class="main-section-divOne">
+                <img src="./assets/img/dados-de-rolamento.png" alt="dados-white" class="main-section-divOne-img">
+                <h1 class="main-section-divOne-title">DevSorteio</h1>
+            </div>
+
+            <div class="main-section-divTwo">
+                <p class="main-section-divTwo-text">Sortear um número</p>
+                <input class="min" type="number" placeholder="Entre..">
+                <input class="max" type="number" placeholder="E..">
+            </div>
+            <button class="raflle" onclick="raffleNumber()">Sortear</button>
+            <p class="result">O número sorteado entre <span class="first-number"></span> e <span class="secund-number"></span> foi: <span class="drawn"></span></p>
+        </section>
+    </main>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
